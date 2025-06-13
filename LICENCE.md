@@ -1,0 +1,3 @@
+gltws(tm)
+Good luck with this shit (tm). Yeah, you can do with this code whatever you want, but just because you could doesn't mean you should...
+What you should do instead is rethink your life if you find this code useful for anythink
