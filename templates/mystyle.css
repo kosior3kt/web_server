@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds space between columns */
+  margin-top: 20px;
+}
+
+.column {
+	display: flex;
+	flex-direction: row;
+	color: red;
+	padding: 20px;
+	border-radius: 15px; /* Rounded corners */
+	border-color: black;
+	min-width: 1000px; /* Minimum width for columns */
+	text-align: left;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.column:nth-child(1) {
+  background-color: #696969;
+}
+
+.column:nth-child(2) {
+  background-color: #2196F3;
+}
