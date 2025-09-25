@@ -46,8 +46,6 @@ int main()
 	}
 
 
-
-
 	printf("dupa\n");
 	return 0;
 }

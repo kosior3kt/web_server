@@ -55,7 +55,7 @@ int main()
 
 	addr.sin_family = AF_INET;
 	addr.sin_addr.s_addr = htonl(INADDR_ANY);
-	addr.sin_port = htons(8080);
+	addr.sin_port = htons(6969);
 
 	operation_res = setsockopt(master_socket_fd, SOL_SOCKET, SO_REUSEADDR, (char *)&opt, sizeof(opt));
 	ERROR_IF_NEGATIVE(operation_res, "setsockopt failed\n");
